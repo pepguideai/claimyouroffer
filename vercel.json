@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/wp-admin/admin-ajax.php",
+      "destination": "https://admin.ambrosiastandard.com/wp-admin/admin-ajax.php"
+    }
+  ]
+}
