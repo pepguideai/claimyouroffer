@@ -12,6 +12,9 @@ export const config = {
 const RESERVED = new Set([
   'index',
   'index.html',
+  'index-previous',
+  'index-previous.html',
+  'images',
   'config',
   'api',
   'wp-admin',
